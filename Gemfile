@@ -31,6 +31,9 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
 
+# Use dotenv for local configs
+gem 'dotenv-rails', groups: [:development]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -26,6 +26,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Foundation for front-end
 gem 'foundation-rails'
 
+# Use devise and omniauth for authentication
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
